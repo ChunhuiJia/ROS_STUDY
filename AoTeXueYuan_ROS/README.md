@@ -44,9 +44,7 @@ geometry_msgs/Transform transform        #坐标信息
 
 现在一机器人模型，核心构成包含主体与雷达，各对应一坐标系，坐标系的原点分别位于主体与雷达的物理中心，已知雷达原点相对于主体原点位移关系如下：x 0.2 ,y 0.1, z 0.5.当前雷达检测到一障碍物，在雷达坐标系中障碍物的坐标为(2.0, 3.0, 5.0),请问，该障碍物相对于主体的坐标是多少？  
 
-![image-20210909101312947](/home/novauto/Learn/ROS_STUDY/AoTeXueYuan_ROS/README.assets/image-20210909101312947.png)
-
-![image-20210909101520912](/home/novauto/Learn/ROS_STUDY/AoTeXueYuan_ROS/README.assets/image-20210909101520912.png)
+![image-20210909101520912](README.assets/image-20210909101520912.png)
 
 **实现分析**
 
@@ -131,7 +129,7 @@ int main(int argc, char **argv)
 }
 ```
 
-![image-20210909143536929](/home/novauto/Learn/ROS_STUDY/AoTeXueYuan_ROS/README.assets/image-20210909143536929.png)
+![image-20210909143536929](README.assets/image-20210909143536929.png)
 
 **3.订阅方** 
 
