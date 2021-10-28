@@ -1,0 +1,11 @@
+<robot name="mycar">
+    <!-- 1. add base_footprint-->
+    <link name="base_footprint">
+        <visual>
+            <geometry>
+                <sphere radius="0.001" />
+                <!-- <box size="0.001 0.001 0.001" /> -->
+            </geometry>
+        </visual>
+    </link>
+</robot>
